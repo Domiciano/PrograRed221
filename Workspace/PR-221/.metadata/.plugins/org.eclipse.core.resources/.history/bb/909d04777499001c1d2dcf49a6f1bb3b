@@ -1,0 +1,30 @@
+package comm;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+import java.util.UUID;
+
+public class Session extends Thread {
+
+	private Socket socket;
+	private String id;
+
+	public Session(Socket socket) {
+		this.socket = socket;
+		id = UUID.randomUUID().toString();
+
+	}
+
+	@Override
+	public void run() {
+		try {
+			BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;DeserializacionJSON/src/main&apos;&#x0A;- Original project: &apos;DeserializacionJSON&apos;&#x0A;- Destination element: &apos;DeserializacionJSON/src/main&apos;&#x0A;- Original elements:&#x0A;     Artist.java&#x0A;     Search.java&#x0A;     Main.java&#x0A;     Album.java&#x0A;     Track.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;main" element1="/src&lt;{Artist.java" element2="/src&lt;{Search.java" element3="/src&lt;{Main.java" element4="/src&lt;{Album.java" element5="/src&lt;{Track.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1645544111408" units="5" version="1.0"/>
+</session>

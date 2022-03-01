@@ -1,0 +1,18 @@
+import java.io.IOException;
+import java.net.URL;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException{
+		
+		Scanner scan = new Scanner(System.in);
+		String artist = scan.nextLine();
+		String site = "https://api.deezer.com/search?q="+artist;
+		
+		URL url = new URL(site);
+		
+		
+	}
+
+}

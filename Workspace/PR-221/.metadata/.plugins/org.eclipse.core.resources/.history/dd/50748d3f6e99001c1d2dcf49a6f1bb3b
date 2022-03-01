@@ -1,0 +1,9 @@
+package comm;
+
+import java.net.Socket;
+
+public class Session extends Thread{
+
+	private Socket socket;
+	
+}

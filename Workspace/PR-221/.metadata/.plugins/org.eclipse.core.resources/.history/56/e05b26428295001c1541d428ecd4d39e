@@ -1,0 +1,27 @@
+package main;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+import com.google.gson.Gson;
+
+public class Client {
+	public static void main(String[] args) throws UnknownHostException, IOException {
+	
+		Socket socket = new Socket("127.0.0.1",6000);
+		BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+		
+		while(true) {
+			String json = reader.readLine();
+			Gson gson = new Gson();
+			gson.fromJson(json, Generic.class);
+			System.out.println(json);
+		}
+		
+		
+		
+	}
+}

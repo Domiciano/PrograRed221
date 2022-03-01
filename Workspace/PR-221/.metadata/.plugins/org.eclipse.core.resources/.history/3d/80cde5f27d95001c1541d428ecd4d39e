@@ -1,0 +1,6 @@
+package model;
+
+public class Student {
+	private String code;
+	private String name;
+}

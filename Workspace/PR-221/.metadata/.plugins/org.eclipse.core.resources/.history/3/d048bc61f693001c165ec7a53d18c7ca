@@ -1,0 +1,6 @@
+package main;
+
+public class Artist {
+	public String nane;
+	public String picture;
+}

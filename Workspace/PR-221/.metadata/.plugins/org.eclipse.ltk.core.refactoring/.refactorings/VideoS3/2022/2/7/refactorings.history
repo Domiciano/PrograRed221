@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;client&apos; to &apos;ClientObserver/src&apos;&#x0A;- Original project: &apos;VideoS3&apos;&#x0A;- Destination element: &apos;ClientObserver/src&apos;&#x0A;- Original element: &apos;VideoS3/src/client&apos;" description="Copy package" destination="=ClientObserver/src" element1="/src&lt;client" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1644502507611" version="1.0"/>
+</session>

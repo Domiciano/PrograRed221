@@ -1,0 +1,9 @@
+package model;
+
+public class Course {
+	
+	private String NRC;
+	private String name;
+	private int credits;
+	
+}

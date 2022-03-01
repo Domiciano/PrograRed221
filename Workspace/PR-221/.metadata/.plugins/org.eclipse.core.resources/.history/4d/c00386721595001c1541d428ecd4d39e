@@ -1,0 +1,14 @@
+package main;
+
+import java.util.Base64;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String ruta = "/Users/domicianorincon/Documents/Por enviar/alfa.png";
+		
+	     Base64.Encoder enc = Base64.getEncoder();
+	      byte[] encbytes = enc.encode("Yamileth Bolaños".getBytes());
+	}
+
+}

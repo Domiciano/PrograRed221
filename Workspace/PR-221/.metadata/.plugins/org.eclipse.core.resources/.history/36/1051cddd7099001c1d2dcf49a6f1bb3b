@@ -1,0 +1,19 @@
+package comm;
+
+import java.net.Socket;
+import java.util.UUID;
+
+public class Session extends Thread{
+
+	
+	private Socket socket;
+	private String id;
+	
+	public Session(Socket socket) {
+		this.socket = socket;
+		id = UUID.randomUUID().toString();
+	}
+	
+	
+	
+}

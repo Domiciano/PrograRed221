@@ -1,0 +1,33 @@
+package main;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+
+	public static void main(String[] args) throws IOException {
+		ServerSocket server = new ServerSocket(5000);
+		while(true) {
+			System.out.println("Esperando...");
+			Socket socket = server.accept();
+			System.out.println("Conectado");
+			
+			
+			//1. Student
+			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+			
+			
+			//2. Course
+			
+			//3. Teacher
+			
+			//4. Arreglo de estudiantes
+			
+		}
+		
+
+	}
+
+}
