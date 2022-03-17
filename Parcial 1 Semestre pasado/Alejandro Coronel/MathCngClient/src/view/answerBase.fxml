@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="487.0" style="-fx-background-color: #000000; -fx-border-width: 10; -fx-border-color: #00FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="112.0" layoutY="45.0" prefHeight="59.0" prefWidth="263.0" style="-fx-background-color: #000000; -fx-text-fill: #00FFFF; -fx-border-color: #00FFFF; -fx-border-width: 3;" text="        Math Challenge" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="answerTF" layoutX="135.0" layoutY="260.0" prefHeight="49.0" prefWidth="218.0" />
+      <Button fx:id="answerBtn" layoutX="207.0" layoutY="325.0" mnemonicParsing="false" style="-fx-background-color: #00FFFF; -fx-text-fill: #000000;" text="Responder" textFill="WHITE" />
+      <Label fx:id="question" contentDisplay="TOP" layoutX="89.0" layoutY="126.0" prefHeight="115.0" prefWidth="310.0" style="-fx-text-fill: #FFFFFF; -fx-border-color: #FFFFFF; -fx-border-width: 3;" text="                                       " textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Medium" size="24.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="267.0" prefHeight="19.0" prefWidth="61.0" text="Pregunta" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="questionlabel" layoutX="33.0" layoutY="292.0" prefHeight="19.0" prefWidth="73.0" style="-fx-text-fill: #FFFFFF;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="382.0" layoutY="267.0" prefHeight="19.0" prefWidth="73.0" text="Adversario" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="opponentlabel" layoutX="384.0" layoutY="292.0" prefHeight="19.0" prefWidth="73.0" style="-fx-text-fill: #FFFFFF;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="354.0" prefHeight="49.0" prefWidth="410.0" text="Nota: En el caso de la division, aproximar a 2 decimales cuando sea necesario" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

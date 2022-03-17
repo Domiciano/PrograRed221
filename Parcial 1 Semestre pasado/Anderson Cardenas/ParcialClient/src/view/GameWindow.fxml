@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="questionL" alignment="CENTER" layoutX="100.0" layoutY="60.0" prefHeight="63.0" prefWidth="289.0" text="Question">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="127.0" layoutY="18.0" prefHeight="9.0" prefWidth="235.0" text="MathChallenge">
+         <font>
+            <Font name="Arial Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitBtn" layoutX="206.0" layoutY="239.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="76.0" text="Submit" />
+      <TextField fx:id="answerTF" layoutX="86.0" layoutY="123.0" prefHeight="44.0" prefWidth="313.0" promptText="Answer" />
+      <Label fx:id="statusL" alignment="CENTER" layoutX="23.0" layoutY="261.0" prefHeight="18.0" prefWidth="42.0" text="1/5" />
+      <Label fx:id="opponentStatusL" alignment="CENTER" layoutX="438.0" layoutY="261.0" prefHeight="18.0" prefWidth="36.0" text="1/5" />
+      <Label layoutX="20.0" layoutY="243.0" text="Question" />
+      <Label layoutX="438.0" layoutY="243.0" text="Enemy" />
+      <Label fx:id="statusAnswerL" layoutX="165.0" layoutY="183.0" prefHeight="44.0" prefWidth="158.0" />
+   </children>
+</AnchorPane>

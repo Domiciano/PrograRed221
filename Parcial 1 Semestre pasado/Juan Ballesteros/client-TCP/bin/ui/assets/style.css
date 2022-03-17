@@ -1,0 +1,29 @@
+ .mainTitle{
+    -fx-font-family: "Ubuntu" ;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+.normalText{
+    -fx-font-family: "Ubuntu" ;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+}
+.button-accept{
+    -fx-background-color : rgb(210, 228, 131) ;
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+}
+.button-cancel{
+    -fx-background-color : none ;
+    -fx-border-color: #a6a3b8 ;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+.back {
+    -fx-background-color : rgb(17, 25, 49);
+}
+.text-field{
+    -fx-font-color: rgb(255, 255, 255);
+    -fx-background-color : rgb(109, 120, 151);
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="226.0" layoutY="14.0" text="Math Challenge">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="operationLb" layoutX="31.0" layoutY="97.0" text="Waiting for oponent">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="334.0" text="Pregunta" />
+      <Label fx:id="ownQuestionLb" layoutX="39.0" layoutY="355.0" text="0/5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="334.0" text="Adversario" />
+      <Label fx:id="adversaryQuestionLb" layoutX="537.0" layoutY="358.0" text="?/5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="answerTF" layoutX="207.0" layoutY="220.0" promptText="Ingresa tu respuesta" />
+      <Button fx:id="answerBtn" layoutX="255.0" layoutY="277.0" mnemonicParsing="false" text="Responder" />
+   </children>
+</AnchorPane>
