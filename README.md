@@ -16,6 +16,9 @@
 <p>Click en la imagen para unirse al servidor de Discord del curso</p>
 <a href="https://discord.gg/Hzh6yjPQeq"><img width="128" src="https://logos-marcas.com/wp-content/uploads/2020/12/Discord-Logo.png"></a><br>
 
+
+
+
 <!--login: .\Admin , pass:4dm1n-windows¡-->
 <!--login: programacion , pass:Programacion2022-->
 
