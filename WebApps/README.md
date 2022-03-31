@@ -26,3 +26,7 @@ Estas son las dependencias necesarias para una webapp
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.15</version>
 	</dependency>
+
+## Para Mac y Ubuntu	
+Despues de descargar el Tomcat, debe pararse en la consola y entrar en la carpeta bin de tomcat. Luego corra el siguiente comando:
+chmod +x *.sh
