@@ -3,7 +3,7 @@ Estas son las dependencias necesarias para una webapp
 	<dependency>
 	    <groupId>com.google.code.gson</groupId>
 	    <artifactId>gson</artifactId>
-	    <version>2.8.6</version>
+	    <version>2.9.0</version>
 	</dependency>
 
 	<dependency>
