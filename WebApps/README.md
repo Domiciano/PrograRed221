@@ -17,7 +17,7 @@ Estas son las dependencias necesarias para una webapp
 	<dependency>
 	    <groupId>org.glassfish.jersey.bundles</groupId>
 	    <artifactId>jaxrs-ri</artifactId>
-	    <version>3.0.4</version>
+	    <version>2.33</version>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
