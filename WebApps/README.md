@@ -1,6 +1,4 @@
 Estas son las dependencias necesarias para una webapp
-
-´´´
 	
 	<dependency>
 	    <groupId>com.google.code.gson</groupId>
@@ -28,4 +26,3 @@ Estas son las dependencias necesarias para una webapp
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.15</version>
 	</dependency>
-´´´
