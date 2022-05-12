@@ -36,7 +36,7 @@ chmod +x *.sh
 	...
 		<plugin>
 		  <groupId>com.heroku.sdk</groupId>
-		  <artifactId>heroku-deploy</artifactId>
+		  <artifactId>heroku-maven-plugin</artifactId>
 		  <version>1.0.3</version>
 		  <configuration>
 		    <appName>{nombre de la app}</appName>
