@@ -30,3 +30,17 @@ Estas son las dependencias necesarias para una webapp
 ## Para Mac y Ubuntu	
 Despues de descargar el Tomcat, debe pararse en la consola y entrar en la carpeta bin de tomcat. Luego corra el siguiente comando:
 chmod +x *.sh
+
+## Plugins maven para despliegue
+	<plugins>
+	...
+		<plugin>
+		  <groupId>com.heroku.sdk</groupId>
+		  <artifactId>heroku-deploy</artifactId>
+		  <version>1.0.3</version>
+		  <configuration>
+		    <appName>{nombre de la app}</appName>
+		  </configuration>
+		</plugin>
+	...
+	</plugins>
